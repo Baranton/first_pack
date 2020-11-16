@@ -47,6 +47,11 @@ def clean_data(data):
     data.loc[:, 'Frequency'] = data['Frequency'].map(drows)
     return data
 
+def try_me(name, age):
+  new_age = age * 2
+  print(f"{name} is {age} years old, meaning that in {age} years he will be {new_age} years old. LOL!")
+
+
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
